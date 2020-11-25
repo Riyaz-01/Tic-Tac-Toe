@@ -60,7 +60,8 @@ body {
 }
 .turn{
     color:#545454;
-    font-weight:bold;
+    font-weight:lighter;
+    font-size:90%;
 }
 .x::before{
     content:'×';

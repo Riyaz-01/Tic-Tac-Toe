@@ -17,13 +17,13 @@ input=(e)=>{
       stat.innerHTML='Winner -';
       if(next)
       {
-          turn.innerHTML=" ×";
+          turn.innerHTML=" x";
           turn.style.color='#545454';
           stat.style.color='#545454';
       }
       else
       {
-          turn.innerHTML=' ○';
+          turn.innerHTML=' o';
           turn.style.color='rgb(255, 255, 220)';
           stat.style.color='rgb(255, 255, 220)';
       }
@@ -43,7 +43,7 @@ clear=(e)=>{
       cells[i].classList.remove('o');
   }
   stat.innerHTML='Turn -';
-  turn.innerHTML=' ×';
+  turn.innerHTML=' x';
   turn.style.color='#545454'
   stat.style.color='rgb(255, 255, 220)';
   next=true;
