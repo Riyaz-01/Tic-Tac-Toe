@@ -52,7 +52,7 @@ body {
     font-weight:500;
 }
 .status,.reset{
-    width:150px;
+    width:50%;
 }
 .reset:hover{
     cursor: pointer;
@@ -78,12 +78,21 @@ body {
     color:#ff4848;
 }
 @media screen and (max-width:540px){
-    html{
-        font-size:70%;
+    .title{
+        font-size:25px;
+    }
+    .control{
+        font-size:18px;
+    }
+    .o::before,.x::before{
+        font-size:100px;
+    }
+    .board{
+        grid-gap:4px;
     }
     .board div{
-        height:90px;
-        width:95px;
+        height:84px;
+        width:84px;
     }
     
 }
