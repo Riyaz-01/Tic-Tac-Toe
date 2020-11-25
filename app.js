@@ -4,12 +4,12 @@ input=(e)=>{
       return;
   if(next)
   {
-      turn.innerHTML=' ○';
+      turn.innerHTML=' o';
       e.target.classList.add('x');
   }   
   else
   {
-      turn.innerHTML=' ×';
+      turn.innerHTML=' x';
       e.target.classList.add('o');  
   }
   if(checkwin()){
