@@ -5,15 +5,11 @@ input=(e)=>{
   if(next)
   {
       turn.innerHTML=' ○';
-      turn.style.color='rgb(255, 255, 220)';
-      stat.style.color='#545454';
       e.target.classList.add('x');
   }   
   else
   {
       turn.innerHTML=' ×';
-      turn.style.color='#545454'
-      stat.style.color='rgb(255, 255, 220)';
       e.target.classList.add('o');  
   }
   if(checkwin()){

@@ -9,7 +9,6 @@ body {
     font-family: sans-serif;
     justify-content: center;
 }
-
 .outer{
     background: #14BDAC;
     margin: 25px;
@@ -53,6 +52,7 @@ body {
 }
 .status,.reset{
     width:50%;
+    height:20px;
 }
 .reset:hover{
     cursor: pointer;
@@ -80,19 +80,21 @@ body {
 @media screen and (max-width:540px){
     .title{
         font-size:25px;
+        border-bottom-width: 1px;;
     }
     .control{
         font-size:18px;
+        margin-top:23px
     }
     .o::before,.x::before{
         font-size:100px;
     }
     .board{
+        margin-top:25px;
         grid-gap:4px;
     }
     .board div{
         height:84px;
         width:84px;
     }
-    
 }
