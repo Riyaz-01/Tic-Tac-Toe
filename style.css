@@ -27,7 +27,7 @@ body {
     color: #F2EBD3;
 }
 .board{
-    background: #0DA192;
+    background: #0fa193;
     display:grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
@@ -65,14 +65,17 @@ body {
 .x::before{
     content:'×';
     font-size:150px;
+    text-shadow: 0 1px 1px rgb(37, 37, 37);
 }
 .o::before{
     content:'○';
+    color:rgb(255, 255, 228);
     font-size:150px;
     transform:translate(0,-5%);
+    text-shadow: 0 1px 1px rgb(37, 37, 37);
 }
 .won::before{
-    color:#ff4141;
+    color:#ff4848;
 }
 @media screen and (max-width:540px){
     html{
