@@ -17,7 +17,7 @@ input=(e)=>{
       stat.innerHTML='Winner -';
       if(next)
       {
-          turn.innerHTML=" x";
+          turn.innerHTML=' x';
           turn.style.color='#545454';
           stat.style.color='#545454';
       }
